@@ -2,7 +2,7 @@
 ![authifyChat 1280 (2)](https://user-images.githubusercontent.com/100699190/200167033-dceb6041-3ea1-4014-ae83-183925a5af90.png)
 
 <div align="center">
-  <h3><a href="https://webkythe.github.io/verifyChat/"> authifyChat</a> makes it easy and safer for users to contact customer support for their favourite services, without any fear of frauds.</h3> 
+  <h3><a href="https://authifyWeb.github.io/authifyChat/"> authifyChat</a> makes it easy and safer for users to contact customer support for their favourite services, without any fear of frauds.</h3> 
 </div>
 
 A well-maintained and transparent database where contributors can easily [verify](https://github.com/authifyWeb/authifyChat/tree/main/sources), update and [report error](https://github.com/authifyWeb/authifyChat/issues). The data, hosted on Github, is and always will be open for verification and transparency so you can double check or triple check on the genuinity of the result. 
