@@ -19,9 +19,9 @@ A well-maintained and transparent database where contributors can easily [verify
  
  
 Copyright © 2022 [authifyWeb](https://github.com/authifyWeb) &nbsp;  &nbsp; 
-Email: <webverts@proton.me>
+Email: <authifyWeb@proton.me>
 
-The copyright extends to the person using the proxy name of [webVerts](https://github.com/webVerts).
+The copyright extends to the person using the proxy name of [authifyAlly](https://github.com/authifyAlly).
 
 ## License
 
@@ -33,7 +33,7 @@ You are free to use the data for personal, non-commercial purposes. The license 
 * Licensor has the right to teminate the contract anytime, incase the licensee replicate a similar or competing service.
 
 #### Disclaimer
- While we try our best to serve you accurate contact details, we don't guarantee you anything. In no event shall the [Author](https://github.com/webVerts), or any other contributors be liable for any claim, damages or any liability.
+ While we try our best to serve you accurate contact details, we don't guarantee you anything. In no event shall the [Author](https://github.com/authifyAlly), or any other contributors be liable for any claim, damages or any liability.
  
  THE SOFTWARE, DATA & SERVICE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
