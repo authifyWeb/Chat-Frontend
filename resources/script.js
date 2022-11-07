@@ -4,7 +4,7 @@ typeahead({
     input: document.querySelector('.searchterm'),
     source: {
     prefetch: {
-        url: "https://raw.githubusercontent.com/webKythe/verifyChat/main/sources/everything.json",
+        url: "https://raw.githubusercontent.com/authifyWeb/authifyChat/main/sources/everything.json",
         },
     identifier: 'name',
     transform: (data) => { 
@@ -32,7 +32,7 @@ notFound: () => 'Sorry!!!&#x1F61F;, Company details not available in our databas
 footer:() => 'Source: <a href="#"> Github</a>',
 },
 onSubmit: (e, selectedSuggestion) => {
-const query = e.target.value;
+
 
 
  
@@ -40,9 +40,8 @@ if (selectedSuggestion) {
 const myJSON = JSON.stringify(selectedSuggestion);
 const outp=JSON.parse(myJSON);
 const {name, url, email,supportPage, dataType, twitter} = outp;
-console.log(name);
-console.log(url);
-//console.log(outp.name);
+
+
 document.getElementById('output'),innerHTML ="";
 
 /* format to display content back as html
