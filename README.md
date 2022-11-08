@@ -16,7 +16,7 @@ A well-maintained and transparent database where contributors can easily [verify
  * [Copyright](https://github.com/authifyWeb/authifyChat#copyright)
  * [License](https://github.com/authifyWeb/authifyChat#license)
  
-##Copyright 
+## Copyright 
  
 Copyright © 2022 [authifyWeb](https://github.com/authifyWeb) &nbsp;  &nbsp; 
 Email: <authifyWeb@proton.me>
