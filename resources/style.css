@@ -101,8 +101,8 @@ nav{	position:fixed;
   
   }
   
-  .menu__box li{
-	   list-style: none;
+  .menu__box li {
+  list-style: none;
   }
   
     
@@ -184,15 +184,17 @@ nav{	position:fixed;
 
 
 /*** TYPEAHEAD-STANDALONE CSS BEGINS ***/
-.tt-input {
+.typeahead-standalone .tt-input {
   margin-top: 10px;
   margin-bottom:25px;
   border-radius: 8px;
   padding: 20px 20px;
   width: 70%;
   text-align:center;
-  color: #fff;
-  background-color: rgb(238, 23, 23);
+  color: rgb(234, 250, 9);
+  background-color: #343d42; 
+  position: relative;
+  z-index: -1;
   
   
    
@@ -242,7 +244,7 @@ display:none;
 }
 
 /* style single suggestion template */
-.single-item {
+.typeahead-standalone .single-item {
   height: 50px;
   display: flex;
   align-items: center;
@@ -252,10 +254,7 @@ display:none;
 
 
 
-.single-item .username {
-  font-size: 17px;
-  text-align:center;
-}
+
 
 /* style header template and notFound template */
 .typeahead-standalone .tt-header, .typeahead-standalone .tt-notFound, .typeahead-standalone .tt-notFound a {
@@ -279,7 +278,7 @@ display:none;
 	
 
 
-.single-item .company_name {
+.typeahead-standalone .single-item .company_name {
 	
 	
 	
