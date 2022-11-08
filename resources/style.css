@@ -64,6 +64,7 @@ nav{	position:fixed;
   cursor: grab;
   z-index: 1;
   padding-top: 8px;
+	visibility: hidden;  /* remove this setting once search bar z-index issue is resolved*/
 }
 
 .menu__btn > span, 
@@ -194,7 +195,7 @@ nav{	position:fixed;
   color: rgb(234, 250, 9);
   background-color: #343d42; 
   position: relative;
-  z-index: -1;
+ /* z-index: -1;     Enabling this causes control issue for mouse, once the menu is clicked  */
   
   
    
