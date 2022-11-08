@@ -64,7 +64,7 @@ nav{	position:fixed;
   cursor: grab;
   z-index: 1;
   padding-top: 8px;
-	visibility: hidden;  /* remove this setting once search bar z-index issue is resolved*/
+  visibility:hidden;
 }
 
 .menu__btn > span, 
@@ -93,18 +93,18 @@ nav{	position:fixed;
   left: -100%;
   width: 200px;
   height: min-height; /*100% for viewport height*/ 
+  margin:10px;
   padding: 20px 0px;
   background-color: #202b31;
-  margin: 10px;
+  z-index:-1;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
   transition-duration: .25s;
   border-radius: 0px 17px 27px 0px ;
-	z-index -1;
   
   }
   
-  .menu__box li {
-  list-style: none;
+  .menu__box li{
+	   list-style: none;
   }
   
     
@@ -186,17 +186,25 @@ nav{	position:fixed;
 
 
 /*** TYPEAHEAD-STANDALONE CSS BEGINS ***/
+
+.main_container{
+	text-align:center;
+	padding-top:10vh;
+  color:#A2FB15;
+  
+}
+
 .typeahead-standalone .tt-input {
+  
   margin-top: 10px;
   margin-bottom:25px;
   border-radius: 8px;
   padding: 20px 20px;
-  width: 70%;
+  width: 80%;
   text-align:center;
   color: rgb(234, 250, 9);
-  background-color: #343d42; 
+  background-color: rgb(238, 23, 23);
   position: relative;
- /* z-index: -1;     Enabling this causes control issue for mouse, once the menu is clicked  */
   
   
    
@@ -246,7 +254,7 @@ display:none;
 }
 
 /* style single suggestion template */
-.typeahead-standalone .single-item {
+.single-item {
   height: 50px;
   display: flex;
   align-items: center;
@@ -256,7 +264,10 @@ display:none;
 
 
 
-
+.single-item .username {
+  font-size: 17px;
+  text-align:center;
+}
 
 /* style header template and notFound template */
 .typeahead-standalone .tt-header, .typeahead-standalone .tt-notFound, .typeahead-standalone .tt-notFound a {
@@ -280,7 +291,7 @@ display:none;
 	
 
 
-.typeahead-standalone .single-item .company_name {
+.single-item .company_name {
 	
 	
 	
@@ -296,12 +307,7 @@ display:none;
 	
 
 }
-.main_container{
-	text-align:center;
-	padding-top:10vh;
-        color:#A2FB15;
-  
-}
+
 
 .output p{
   color: #fff;
