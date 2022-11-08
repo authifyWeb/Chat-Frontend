@@ -1,9 +1,10 @@
-By using [authifyChat](https://authifyWeb.github.io/authifyChat/) website you agree to the Terms below. Last update: November 2022
+By using [authifyChat](https://authifyWeb.github.io/authifyChat/) website you agree to the Terms below. Last update: Nov 08 2022
 
 ## Terms 
 * This website is hosted on Microsoft Github Pages, so by default Microsoft might track the users that visit authifyChat website. 
 * I have the right to use any analytics on this website, to understand how effective the service is for users. 
 * I have the right to use ads on this website, and generate revenue from it.
+* Clicking on external links will take you to those websites. They may choose to track you or install cookies in your browser. Please refer to their terms and privacy policy, and the control is not in our hands.
 
 
 ## Privacy
