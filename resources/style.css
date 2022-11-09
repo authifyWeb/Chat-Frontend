@@ -64,7 +64,7 @@ nav{	position:fixed;
   cursor: grab;
   z-index: 1;
   padding-top: 8px;
-  visibility:hidden;
+  
 }
 
 .menu__btn > span, 
@@ -96,7 +96,7 @@ nav{	position:fixed;
   margin:10px;
   padding: 20px 0px;
   background-color: #202b31;
-  z-index:-1;
+  
   box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
   transition-duration: .25s;
   border-radius: 0px 17px 27px 0px ;
@@ -118,8 +118,15 @@ nav{	position:fixed;
   font-weight: 100;
   text-decoration: none;
   transition-duration: .25s;
+  
 
 }
+
+#menu1{
+margin-bottom:80px;
+}
+
+
 .menu__item:hover {
   background-color: #354852;
   color: #FFFFFF;
@@ -127,7 +134,6 @@ nav{	position:fixed;
 
 .foo__item {
   display: block;
-  margin-top: 80px;
   padding: 8px 30px;
   color: #EDE3E3;
   letter-spacing: 3px;
@@ -174,7 +180,8 @@ nav{	position:fixed;
  .footer  {
   text-align: center;
   position: absolute;
-  top: 95%; 	
+  top: 95%; 
+  z-index:1;
 	
  }
 
@@ -188,27 +195,32 @@ nav{	position:fixed;
 /*** TYPEAHEAD-STANDALONE CSS BEGINS ***/
 
 .main_container{
-	text-align:center;
-	padding-top:10vh;
+  text-align:center;
+  padding-top:10vh;
   color:#A2FB15;
-  
+  position: fixed;
+  right: 10vw;
+  left: 10vw;
+  z-index: -1;
 }
 
-.typeahead-standalone .tt-input {
+
+.tt-input {
   
   margin-top: 10px;
   margin-bottom:25px;
   border-radius: 8px;
   padding: 20px 20px;
-  width: 80%;
+  width: 100%;
   text-align:center;
   color: rgb(234, 250, 9);
-  background-color: rgb(238, 23, 23);
+  background-color: #333333;
   position: relative;
-  
+ 
   
    
 } 
+
 
 /* override style for list of suggestions */
 .typeahead-standalone.typeahead-sgst .tt-list {
@@ -218,6 +230,7 @@ nav{	position:fixed;
   border-radius: 10px;
   /* adds scrollbar when necessary */
   max-height: 400px;
+  
  
 }
 
@@ -254,7 +267,7 @@ display:none;
 }
 
 /* style single suggestion template */
-.single-item {
+.typeahead-standalone.typeahead-sgst .single-item {
   height: 50px;
   display: flex;
   align-items: center;
@@ -264,10 +277,6 @@ display:none;
 
 
 
-.single-item .username {
-  font-size: 17px;
-  text-align:center;
-}
 
 /* style header template and notFound template */
 .typeahead-standalone .tt-header, .typeahead-standalone .tt-notFound, .typeahead-standalone .tt-notFound a {
