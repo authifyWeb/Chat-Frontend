@@ -1,3 +1,16 @@
+/* montserrat-regular - latin [Google Font: Self Hosted]*/
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/montserrat-v25-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/montserrat-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/montserrat-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
 /****  Nav Menu Begins Here ****/
 *{
 	box-sizing: border-box;
@@ -184,6 +197,9 @@ margin-bottom:80px;
   z-index:1;
 	
  }
+ #donate_box{
+	visibility: hidden;
+  }
 
 
 }
@@ -220,6 +236,7 @@ margin-bottom:80px;
   
    
 } 
+
 
 
 /* override style for list of suggestions */
@@ -331,6 +348,38 @@ display:none;
 
 #searchterm{
   color:#fff;
+}
+
+#donate_box{
+	position: fixed;
+/*	top:95vh; */
+	bottom:2.5vh;
+	right:1.5vw;
+	
+	
+}
+
+#donate{
+	
+	
+	
+	background-color: #316e7d;   /*   #FDFF8F; */
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	
+	border: solid white;
+	border-width: 1px;
+}
+
+#donate a{
+	color:white;
+	text-decoration:none;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+
 }
 
 @media (min-width: 320px) and (max-width: 500px)  {
