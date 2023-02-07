@@ -214,8 +214,12 @@ margin-bottom:80px;
   text-align:center;
   padding-top:10vh;
   color:#A2FB15;
-  
   z-index: -1;
+  /* The below 3 conditions are not required, but removing them causes the input field overlap with slider menu when active. Having these causes small blurring of texts. */
+  position:fixed;
+  left:0px;
+  right:0px;
+  
 }
 
 
