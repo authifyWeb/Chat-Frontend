@@ -214,9 +214,7 @@ margin-bottom:80px;
   text-align:center;
   padding-top:10vh;
   color:#A2FB15;
-  position: fixed;
-  right: 10vw;
-  left: 10vw;
+  
   z-index: -1;
 }
 
@@ -224,10 +222,10 @@ margin-bottom:80px;
 .tt-input {
   
   margin-top: 10px;
-  margin-bottom:25px;
+  margin-bottom:10px;
   border-radius: 8px;
-  padding: 20px 20px;
-  width: 100%;
+  padding: 15px 15px;
+  width: 70%;
   text-align:center;
   color: rgb(234, 250, 9);
   background-color: #333333;
