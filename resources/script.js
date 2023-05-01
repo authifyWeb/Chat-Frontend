@@ -16,8 +16,9 @@ typeahead({
 debounceRemote: 200,
 highlight: true,
 className: 'typeahead-sgst',
-minLength: 2,
+minLength: 3,
 preventSubmit: false,
+limit:25,
 hint: true,
 autoSelect: true,
 templates: {
@@ -28,8 +29,8 @@ templates: {
     ),
     
 header: () => 'Company Name',
-notFound: () => 'Sorry!!!&#x1F61F;, Company details not available in our database <br> Please request it <a href="#"> here</a> ',
-footer:() => 'Source: <a href="#"> Github</a>',
+notFound: () => 'Sorry!!!&#x1F61F;, Company details not available in our database <br> Please request it <a href="https://github.com/authifyWeb/Chat-Frontend/issues"> here</a> ',
+footer:() => 'Source: <a href="https://github.com/authifyWeb/Chat-Frontend#quick-links"> Github</a>',
 },
 onSubmit: (e, selectedSuggestion) => {
 
@@ -42,7 +43,9 @@ const outp=JSON.parse(myJSON);
 const {name, url, email,supportPage, dataType, twitter} = outp;
 
 
-document.getElementById('output'),innerHTML ="";
+
+document.getElementById("compatible").innerHTML ="";
+
 
 /* format to display content back as html
 document.getElementById('nitter').innerHTML = '<a href=' + url +' target="_blank" style="color:green">' +  'Twitter   </a>';	
@@ -56,7 +59,7 @@ document.getElementById('support').innerHTML = `<a href=${supportPage} target="_
 document.getElementById('nitter').innerHTML = `<a href=${twitter} target="_blank" >Twitter Page  </a>`;	
 document.getElementById('dataType').innerHTML = `<p> Data Source - "${dataType}" </p>`;
 
-
+no_promote.innerHTML="";
 
 
 
