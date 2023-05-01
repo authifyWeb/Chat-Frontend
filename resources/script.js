@@ -45,7 +45,7 @@ const {name, url, email,supportPage, dataType, twitter} = outp;
 
 
 document.getElementById("compatible").innerHTML ="";
-
+no_promote.innerHTML="";
 
 /* format to display content back as html
 document.getElementById('nitter').innerHTML = '<a href=' + url +' target="_blank" style="color:green">' +  'Twitter   </a>';	
@@ -59,7 +59,7 @@ document.getElementById('support').innerHTML = `<a href=${supportPage} target="_
 document.getElementById('nitter').innerHTML = `<a href=${twitter} target="_blank" >Twitter Page  </a>`;	
 document.getElementById('dataType').innerHTML = `<p> Data Source - "${dataType}" </p>`;
 
-no_promote.innerHTML="";
+
 
 
 
